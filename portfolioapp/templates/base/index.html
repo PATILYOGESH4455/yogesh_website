@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!-- Bootstrap CSS -->
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+    />
+
+    <!-- Bootstrap Dark Mode CSS -->
+    <link rel="stylesheet" href="{% static 'style/dark-mode.css' %}"/>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+            rel="stylesheet"
+    />
+
+    <!-- Fontawesome CSS -->
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'style/main.css' %}"/>
+
+    <title>Yogesh Patil | Software Developer</title>
+</head>
+
+<body>
+<section>
+    <div id="top-bar"
+         style="min-height: 79.19px; max-height: 79.19px; width: 100vw; background-color:white;position:fixed; top:0; z-index: 10;"></div>
+    <!-- Navbar -->
+    <nav
+            class="navbar navbar-expand-lg navbar-light py-3 transparent-bg ps-0 container fixed-top"
+    >
+        <div class="container-fluid" style="padding-left: 0px">
+            <a class="navbar-brand poppins pb-0 ps-3" style="font-size: 1.3rem" href="#"
+            ><strong>YOGESH PATIL</strong></a
+            >
+            <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarText"
+                    aria-controls="navbarText"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+                    class="collapse navbar-collapse poppins"
+                    style="font-size: 1.3rem"
+                    id="navbarText"
+            >
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link pe-3" aria-current="page" href="#" style="color: #000">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="#" style="color: #000">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="#" style="color: #000">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ps-1" href="#" style="color: #000">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ps-1" href="#" style="color: #000">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!--        <div class="dark-mode-btn ms-3">-->
+            <!--          <input type="checkbox" class="checkbox" id="checkbox" />-->
+            <!--          <label for="checkbox" class="checkbox-label">-->
+            <!--            <i class="fas fa-sun"></i>-->
+            <!--            <i class="fas fa-moon"></i>-->
+
+            <!--            <span class="ball"></span>-->
+            <!--          </label>-->
+            <!--        </div>-->
+        </div>
+    </nav>
+</section>
+
+<!-- Introductin Container -->
+<div id="intro-container">
+    <div class="container ps-0">
+        <div class="row">
+            <div class="col-12 col-md-6 ps-4">
+                <div class="intro-container ps-1">
+                    <h1 id="intro" style="font-size: 2.8rem; letter-spacing: 0.5px">
+                        <strong>Hi, I'm Yogesh </strong>
+                    </h1>
+
+                    <p
+                            class="intro-text pt-3"
+                            style="
+                  font-size: 1.4rem;
+                  letter-spacing: 0.5px;
+                  line-height: 45px;
+                "
+                    >
+                        Software Developer with 2+ years of Web Development experience based in Mumbai, India.
+                        <br>Certified Python-Django Developer
+                    </p>
+
+                    <div class="d-inline-block work-btn my-1 d-flex justify-content-center align-items-center"
+                         style="font-size: 1.4rem">
+                        CHECK OUT MY WORK
+                    </div>
+                    <br>
+                    <div class="intro-text pt-3">
+                        <h1 id="intro" style="font-size: 2rem; letter-spacing: 0.5px">
+                            <strong>Skills</strong>
+                        </h1>
+                        <div class="row mt-4" style="border-radius: 10px; font-weight: 500; background-color: white">
+                            <div class="col-2 col-md-1 mt-2">
+                                <img src="static/icons/python.svg" alt="" class="img-fluid">
+                                <p class="text-center mb-0 pt-2"><small>Python</small></p>
+                            </div>
+                            <div class="col-2 col-md-1 mt-2">
+                                <img src="static/icons/django.svg" alt="" class="img-fluid">
+                                <p class="text-center mb-0 pt-2"><small>Django</small></p>
+                            </div>
+                            <div class="col-2 col-md-1 mt-2">
+                                <img src="static/icons/html.svg" alt="" class="img-fluid">
+                                <p class="text-center mb-0 pt-2"><small>HTML</small></p>
+                            </div>
+                            <div class="col-2 col-md-1 mt-2">
+                                <img src="static/icons/javascript.svg" alt="" class="img-fluid">
+                                <p class="text-center mb-0 pt-2"><small>JS</small></p>
+                            </div>
+                            <div class="col-2 col-md-1 mt-2">
+                                <img src="static/icons/git.svg" alt="" class="img-fluid">
+                                <p class="text-center mb-0 pt-2"><small>Git</small></p>
+                            </div>
+                            <div class="col-2 col-md-1 mt-2">
+                                <img src="static/icons/postgresql.svg" alt="" class="img-fluid">
+                                <p class="text-center mb-0 pt-2"><small>PSQL</small></p>
+                            </div>
+                            <div class="col-2 col-md-1 mt-2">
+                                <img src="static/icons/bootstrap.svg" alt="" class="img-fluid">
+                                <p class="text-center mb-0 pt-2"><small>BS</small></p>
+                            </div>
+                            <div class="col-2 col-md-1 mt-2">
+                                <img src="static/icons/linux.png" alt="" class="img-fluid">
+                                <p class="text-center mb-0 pt-2"><small>Linux</small></p>
+                            </div>
+                            <div class="col-2 col-md-1 mt-2">
+                                <img src="static/icons/css3.svg" alt="" class="img-fluid">
+                                <p class="text-center mb-0 pt-2"><small>CSS</small></p>
+                            </div>
+
+                            <div class="col-2 col-md-1 mt-2">
+                                <img src="static/icons/heroku.svg" alt="" class="img-fluid">
+                                <p class="text-center mb-0 pt-2"><small>Heroku</small></p>
+                            </div>
+                            <div class="col-2 col-md-1 mt-2">
+                                <img src="static/icons/docker.svg" alt="" class="img-fluid">
+                                <p class="text-center mb-0 pt-2"><small>Docker</small></p>
+                            </div>
+                            <div class="col-2 col-md-1 mt-2">
+                                <img src="static/icons/pycharm.svg" alt="" class="img-fluid">
+                                <p class="text-center mb-0 pt-2"><small>Pycharm</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 ps-4">
+                <div class="intro-container ps-1">
+
+                    <div>
+                        <img src="static/images/avtar.jpg"
+                             style="max-width: 60%; height: auto; margin-left: 160px; margin-top: 20px;" alt="Avatar">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <br>
+        <section class="container section--2">
+            <h3 id="intro" style="font-size: 2rem; letter-spacing: 0.5px"><strong>My Projects</strong></h3>
+            <h5>Projects that makes my journey worthwhile</h5>
+            <br>
+            <div class="projects--wrapper">
+                {% for project in projects %}
+                <div class="project--column">
+                    <img class="project--thumbnail" src="static/images/empmgmtsys.jpg" alt="">
+                    <div class="project--body">
+                        <h5>{{project.title}}</h5>
+                    </div>
+                </div>
+                {% empty %}
+                <h5>There are no projects in database...</h5>
+                {% endfor %}
+            </div>
+        </section>
+        <br>
+        <div class="about--wrapper">
+            <h3 id="intro" style="font-size: 2rem; letter-spacing: 0.5px"><strong>More About Me</strong></h3>
+            <p>Your story is where you’ll have more of an opportunity to really explain how you got to where you are
+                today. This part of the ‘About Me’ page should be more meaningful as it’s an opportunity to connect with
+                your readers on a deeper level. If your customers know your story and any struggles you endured, they’re
+                inevitably going to feel more connected to you.</p>
+        </div>
+        <section class="section--1">
+            <div class="skill--container">
+                <h3 id="intro" style="font-size: 2rem; letter-spacing: 0.5px"><strong>Skills</strong></h3>
+                <div class="skill-wrapper">
+                    <h5>Python</h5>
+                    <p>Python is a popular programming language. It was created by Guido van Rossum, and released in
+                        1991.
+
+                        It is used for:
+
+                        web development (server-side),
+                        software development,
+                        mathematics,
+                        system scripting.
+                    </p>
+                </div>
+                <div class="skill-wrapper">
+                    <h5>React</h5>
+                    <p>Python is a popular programming language. It was created by Guido van Rossum, and released in
+                        1991.
+
+                        It is used for:
+
+                        web development (server-side),
+                        software development,
+                        mathematics,
+                        system scripting.
+                    </p>
+                </div>
+                <div class="skill-wrapper">
+                    <h5>Django</h5>
+                    <p>Python is a popular programming language. It was created by Guido van Rossum, and released in
+                        1991.
+
+                        It is used for:
+
+                        web development (server-side),
+                        software development,
+                        mathematics,
+                        system scripting.
+                    </p>
+                </div>
+                <div class="skill-wrapper">
+                    <h5>AWS</h5>
+                    <p>Python is a popular programming language. It was created by Guido van Rossum, and released in
+                        1991.
+
+                        It is used for:
+
+                        web development (server-side),
+                        software development,
+                        mathematics,
+                        system scripting.
+                    </p>
+                </div>
+            </div>
+            <h4>Other Skills</h4>
+            <div class="other--skills-wrapper">
+                <div class="skill--tag">
+                <span>AWS</span>
+                </div>
+                <div class="skill--tag">
+                <span>Heroku</span>
+                </div>
+                <div class="skill--tag">
+                <span>React JS</span>
+                </div>
+                <div class="skill--tag">
+                <span>Python</span>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+    <footer class="footer">
+        <p class="text-center">
+            <a href="https://twitter.com/YogeshP71799208" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/yogeshpatil316/" target="_blank" rel="noopener"><i
+                    class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/patilyogesh4455" target="_blank" rel="noopener"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/PATILYOGESH4455" target="_blank" rel="noopener"><i
+                    class="fab fa-github"></i></a>
+            <a href="mailto:patilyogesh4455@gmail.com"><i class="fas fa-envelope"></i></a>
+        </p>
+        <p class="text-center">&#169; Yogesh Patil 2022</p>
+    </footer>
+
+
+    <!-- Bootstrap Dark Mode JS -->
+    <script src="static/js/dark-mode-switch.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
